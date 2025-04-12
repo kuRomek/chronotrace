@@ -16,6 +16,7 @@ namespace UI
         private int _currentLineIndex = 0;
 
         public event Action DialogFinished;
+        public event Action AskingWindowOpening;
 
         public bool IsDialogActive => gameObject.activeSelf;
 
@@ -35,6 +36,8 @@ namespace UI
             _title.text = dialog.Title;
             _line.text = dialog.Lines[_currentLineIndex++];
 
+            _currentDialog = dialog;
+
             Open();
         }
 
@@ -48,9 +51,11 @@ namespace UI
 
         private void FinishDialog()
         {
+            if (_currentDialog.InvokesQuestion == true)
+                AskingWindowOpening?.Invoke();
+
             _currentDialog = null;
             _currentLineIndex = 0;
-            Close();
 
             DialogFinished?.Invoke();
         }
