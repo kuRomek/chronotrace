@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: 0da0d6fe04a41a94cbb626670f122590
+  - enabled: 1
+    path: Assets/Scenes/TestCementry.unity
+    guid: 0dc4a24f03082a54a81c1c3797543c6f
+  - enabled: 1
+    path: Assets/Scenes/TestHotel.unity
+    guid: b87ab293d97cf054cb5f93bb2b9cb23b
+  - enabled: 1
+    path: Assets/Scenes/TestLab.unity
+    guid: 65c53f6ebf3bc874f81c7cddb731d6fc
+  - enabled: 1
+    path: Assets/Scenes/TestRailway.unity
+    guid: 8951ca352d5f0e942833c36e70d8feff
+  - enabled: 1
+    path: Assets/Scenes/TestRoom.unity
+    guid: 2b01f1623371c8648a549854fa47d223
   m_configObjects: {}
