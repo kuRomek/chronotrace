@@ -1,4 +1,5 @@
 using System;
+using UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +7,8 @@ namespace Input
 {
     public class PlayerInputController : MonoBehaviour
     {
+        [SerializeField] private AskingWindow _askingWindow;
+
         private PlayerInput _input;
 
         public event Action<Vector3> Moving;
@@ -41,11 +44,17 @@ namespace Input
 
         private void SkipDialog(InputAction.CallbackContext context)
         {
+            if (_askingWindow.gameObject.activeSelf)
+                return;
+
             DialogSkiping?.Invoke();
         }
 
         private void OnMoving(InputAction.CallbackContext context)
         {
+            if (_askingWindow.gameObject.activeSelf)
+                return;
+
             MovingDirection = context.action.ReadValue<Vector2>();
             MovingDirection = new Vector3(MovingDirection.x, 0f, MovingDirection.y);
 
@@ -54,6 +63,9 @@ namespace Input
 
         private void OnInteracting(InputAction.CallbackContext context)
         {
+            if (_askingWindow.gameObject.activeSelf)
+                return;
+
             Interacting?.Invoke();
         }
     }

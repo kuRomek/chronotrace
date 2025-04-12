@@ -6,6 +6,7 @@ namespace PlayerControl
     public class Movement : MonoBehaviour
     {
         [SerializeField] private PlayerInputController _input;
+        [SerializeField] private PlayerAnimationController _animationController;
         [SerializeField] private float _speed = 3f;
 
         private void FixedUpdate()
@@ -14,6 +15,8 @@ namespace PlayerControl
 
             if (_input.MovingDirection != Vector3.zero)
                 transform.forward = _input.MovingDirection;
+
+            _animationController.SetAnimation(_input.MovingDirection != Vector3.zero);
         }
     }
 }
