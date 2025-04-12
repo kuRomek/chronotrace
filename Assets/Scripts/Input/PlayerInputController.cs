@@ -10,6 +10,7 @@ namespace Input
 
         public event Action<Vector3> Moving;
         public event Action Interacting;
+        public event Action DialogSkiping;
 
         public Vector3 MovingDirection { get; private set; }
 
@@ -25,6 +26,7 @@ namespace Input
             _input.Player.Move.performed += OnMoving;
             _input.Player.Move.canceled += OnMoving;
             _input.Player.Interact.performed += OnInteracting;
+            _input.Player.DialogSkip.performed += SkipDialog;
         }
 
         private void OnDisable()
@@ -32,8 +34,14 @@ namespace Input
             _input.Player.Move.performed -= OnMoving;
             _input.Player.Move.canceled -= OnMoving;
             _input.Player.Interact.performed -= OnInteracting;
+            _input.Player.DialogSkip.performed -= SkipDialog;
 
             _input.Disable();
+        }
+
+        private void SkipDialog(InputAction.CallbackContext context)
+        {
+            DialogSkiping?.Invoke();
         }
 
         private void OnMoving(InputAction.CallbackContext context)

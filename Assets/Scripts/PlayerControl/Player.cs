@@ -1,3 +1,4 @@
+using Dialogs;
 using Input;
 using Interactable;
 using System;
@@ -9,22 +10,26 @@ namespace PlayerControl
     {
         [SerializeField] private InteractableDetector _interactableDetector;
         [SerializeField] private PlayerInputController _input;
+        [SerializeField] private Movement _movement;
 
-        private Action _interactAction;
-
-        private void Awake()
-        {
-            _interactAction = () => _interactableDetector.CurrentInteractable?.Interact();
-        }
+        public event Action<Dialog> Interacting;
 
         private void OnEnable()
         {
-            _input.Interacting += _interactAction;
+            _input.Interacting += Interacted;
+            _movement.enabled = true;
         }
 
         private void OnDisable()
         {
-            _input.Interacting -= _interactAction;
+            _input.Interacting -= Interacted;
+            _movement.enabled = false;
+        }
+
+        private void Interacted()
+        {
+            if (_interactableDetector.CurrentInteractable != null)
+                Interacting?.Invoke(_interactableDetector.CurrentInteractable.Interact());
         }
     }
 }

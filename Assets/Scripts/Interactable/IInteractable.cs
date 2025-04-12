@@ -1,7 +1,9 @@
+using Dialogs;
+
 namespace Interactable
 {
     public interface IInteractable
     {
-        void Interact();
+        Dialog Interact();
     }
 }
