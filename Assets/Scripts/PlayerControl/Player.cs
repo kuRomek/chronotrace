@@ -28,7 +28,8 @@ namespace PlayerControl
 
         private void Interacted()
         {
-            Interacting?.Invoke(_interactableDetector.CurrentInteractable?.Interact());
+            if (_interactableDetector.CurrentInteractable != null)
+                Interacting?.Invoke(_interactableDetector.CurrentInteractable.Interact());
         }
     }
 }

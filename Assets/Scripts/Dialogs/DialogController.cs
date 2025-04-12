@@ -24,6 +24,7 @@ namespace Dialogs
         private void StarDialog(Dialog dialog)
         {
             _dialogWindow.StartDialog(dialog);
+            _player.enabled = false;
         }
 
         private void OnDialogFinished()
