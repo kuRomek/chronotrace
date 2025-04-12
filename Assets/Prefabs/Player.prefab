@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _input: {fileID: 1901237913667213500}
+  _animationController: {fileID: 6343684067989920174}
   _speed: 3
 --- !u!114 &5699319353796252176
 MonoBehaviour:
@@ -197,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b0e8a54e222ae9498fcae4b1fe65d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _askingWindow: {fileID: 0}
 --- !u!1001 &6830448103530822203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,6 +258,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1556b73c1652e8a4aa321e2bc0c6d56f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1465063033109110207}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1556b73c1652e8a4aa321e2bc0c6d56f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6343684067989920174}
   m_SourcePrefab: {fileID: 100100000, guid: 1556b73c1652e8a4aa321e2bc0c6d56f, type: 3}
 --- !u!1 &5912040545558775658 stripped
 GameObject:
@@ -283,6 +288,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6343684067989920174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5912040545558775658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0ecb63c7429e741aeca3deb176ccb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1465063033109110207}
 --- !u!4 &6431167897897049552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1556b73c1652e8a4aa321e2bc0c6d56f, type: 3}

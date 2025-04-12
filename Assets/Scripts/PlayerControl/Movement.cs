@@ -9,6 +9,11 @@ namespace PlayerControl
         [SerializeField] private PlayerAnimationController _animationController;
         [SerializeField] private float _speed = 3f;
 
+        private void OnDisable()
+        {
+            _animationController.SetAnimation(false);
+        }
+
         private void FixedUpdate()
         {
             transform.position += _speed * Time.fixedDeltaTime * _input.MovingDirection;
