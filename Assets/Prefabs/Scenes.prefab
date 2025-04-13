@@ -137,10 +137,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneButton (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -220,10 +216,6 @@ PrefabInstance:
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -247,10 +239,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneButton (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -330,10 +318,6 @@ PrefabInstance:
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -357,10 +341,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneButton (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -440,14 +420,6 @@ PrefabInstance:
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestHotel
-      objectReference: {fileID: 0}
-    - target: {fileID: 4102788147495012838, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_text
-      value: Hotel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -471,10 +443,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneButton (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -554,10 +522,6 @@ PrefabInstance:
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -581,10 +545,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneButton
       objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -665,14 +625,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestCementry
-      objectReference: {fileID: 0}
-    - target: {fileID: 4102788147495012838, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_text
-      value: Cementry
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -694,10 +646,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -779,14 +727,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestLab
-      objectReference: {fileID: 0}
-    - target: {fileID: 4102788147495012838, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_text
-      value: Lab
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -808,10 +748,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -893,10 +829,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -918,10 +850,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -1003,14 +931,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRoom
-      objectReference: {fileID: 0}
-    - target: {fileID: 4102788147495012838, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_text
-      value: Room
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1032,10 +952,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -1117,10 +1033,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1142,10 +1054,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -1227,14 +1135,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
-      objectReference: {fileID: 0}
-    - target: {fileID: 4102788147495012838, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_text
-      value: Railway
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1256,10 +1156,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -1341,10 +1237,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1366,10 +1258,6 @@ PrefabInstance:
     - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Name
       value: SceneButton (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 428805070532525870, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_Pivot.x
@@ -1450,10 +1338,6 @@ PrefabInstance:
     - target: {fileID: 2764965584082124203, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343348579263194001, guid: 35a9084ed4c11da47bda302c6f3cec15, type: 3}
-      propertyPath: _sceneName
-      value: TestRailway
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
