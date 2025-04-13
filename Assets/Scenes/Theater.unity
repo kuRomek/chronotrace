@@ -462,17 +462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108a54255b85f754eae49f5ab8f1bdaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &320494083 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1180326655507156127, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
-  m_PrefabInstance: {fileID: 320494080}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a75c11aa5f6584d9d7db904f7220b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,6 +1100,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.24844569, y: 0.94657594, z: 0.30878758}
   m_Center: {x: 2.8622515e-10, y: 0.47365728, z: 0.028746799}
+--- !u!114 &908256436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2764919344475626903, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
+  m_PrefabInstance: {fileID: 320494080}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23cd19c7e462ec940bc53e86ee754cd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1028979565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1276,7 +1276,7 @@ PrefabInstance:
     - target: {fileID: 1901237913667213500, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 320494083}
+      objectReference: {fileID: 0}
     - target: {fileID: 2474071426771129767, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.1932979
@@ -1572,7 +1572,7 @@ PrefabInstance:
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 320494083}
+      objectReference: {fileID: 908256436}
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _dialogWindow
       value: 
