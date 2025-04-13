@@ -1606,7 +1606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 637013240}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: c2972d7c3f7b62d40bd7f0c1c5304558, type: 2}
 --- !u!1 &641997071 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3691271798938078976, guid: 7484e5967521bf0469b96c53310d46f7, type: 3}
@@ -2774,7 +2774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 993719712}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 2e134b8397577ee4f9d42eca94012d7d, type: 2}
 --- !u!114 &993719712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1036824240}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: a73b5c31a29473d49a5ec35b7eb278c5, type: 2}
 --- !u!4 &1036824242
 Transform:
   m_ObjectHideFlags: 0
@@ -4543,6 +4543,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.169
       objectReference: {fileID: 0}
+    - target: {fileID: 6978294065168990382, guid: 9e2fe81cb86fc764d84d76fbea3beae5, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: d00ee5f86f6c0ca4d8eb0222e35f891e, type: 2}
     - target: {fileID: 6978294065168990382, guid: 9e2fe81cb86fc764d84d76fbea3beae5, type: 3}
       propertyPath: _outline
       value: 

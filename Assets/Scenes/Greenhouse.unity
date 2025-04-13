@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 102367219}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 467989ec3c12e0048a9c6113ccdbeaac, type: 2}
 --- !u!65 &102367221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1063,6 +1063,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5401702678139892922, guid: bb764eec31ba66d48b07cc6a2a123cc4, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ac5f5581fd38914197e270aac620aea, type: 2}
+    - target: {fileID: -5401702678139892922, guid: bb764eec31ba66d48b07cc6a2a123cc4, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 768473461}
@@ -1230,6 +1234,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2044446459164373045, guid: f3af9595bf73e7349aecb8ac0a313c7b, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 887f22c5ae8429f499a4d09dc7fef3e7, type: 2}
+    - target: {fileID: 2044446459164373045, guid: f3af9595bf73e7349aecb8ac0a313c7b, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 1175282504}
@@ -1357,6 +1365,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5217805738147354515, guid: f2559b3d9fe721741886f1591601ce00, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 50e8cfe5d421db7419dc0ee672a35051, type: 2}
     - target: {fileID: -5217805738147354515, guid: f2559b3d9fe721741886f1591601ce00, type: 3}
       propertyPath: _outline
       value: 
@@ -3959,6 +3971,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9214425857116780625, guid: babbaf775d8a1dc498fa0d8ee98cba65, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: bb79628e3be8c364992bdbc7e722ab0e, type: 2}
     - target: {fileID: -9214425857116780625, guid: babbaf775d8a1dc498fa0d8ee98cba65, type: 3}
       propertyPath: _outline
       value: 

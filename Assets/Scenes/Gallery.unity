@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 384214948}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 96be2d3f7dc744845aa749259927ceb9, type: 2}
 --- !u!114 &384214948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 384478133}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 96be2d3f7dc744845aa749259927ceb9, type: 2}
 --- !u!114 &384478133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 503909967}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 9347f06c9d1796d4c9c3b7a01946127f, type: 2}
 --- !u!65 &503909969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1812,7 +1812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 977748605}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 25dae62c260bffd42958e801ab76720e, type: 2}
 --- !u!65 &977748607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2451,7 +2451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1491417405}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 9347f06c9d1796d4c9c3b7a01946127f, type: 2}
 --- !u!65 &1491417407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2584,7 +2584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1615070693}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 50ab62130b14a5644a590f7f31a2e8c4, type: 2}
 --- !u!114 &1615070693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2747,7 +2747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1690987297}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 96be2d3f7dc744845aa749259927ceb9, type: 2}
 --- !u!114 &1690987297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1787386260}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 50ab62130b14a5644a590f7f31a2e8c4, type: 2}
 --- !u!65 &1787386262
 BoxCollider:
   m_ObjectHideFlags: 0
