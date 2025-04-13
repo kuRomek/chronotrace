@@ -1,23 +1,24 @@
+using Misc;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 namespace UI
 {
     public class SceneWindow : Window
     {
-        private List<SceneButton> _sceneButtons;
-        private int _activeScenesCount = 3;
+        [SerializeField] private Scenes _scenes;
+        [SerializeField] private SceneButton[] _sceneButtons;
 
         private void Awake()
         {
-            _sceneButtons = GetComponentsInChildren<SceneButton>(true).ToList();
+            List<string> scenes = new List<string>(_scenes.ScenesList);
 
-            for (int i = 0; i < _activeScenesCount; i++)
+            for (int i = 0; i < _sceneButtons.Length; i++)
             {
-                int randomIndex = Random.Range(0, _sceneButtons.Count);
-                _sceneButtons[randomIndex].gameObject.SetActive(true);
-                _sceneButtons.RemoveAt(randomIndex);
+                int randomIndex = Random.Range(0, scenes.Count);
+                _sceneButtons[i].Init(scenes[randomIndex]);
+                _sceneButtons[i].SceneSelected += _scenes.RemoveScene;
+                scenes.RemoveAt(randomIndex);
             }
         }
     }
