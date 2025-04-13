@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Test.unity
     guid: 0da0d6fe04a41a94cbb626670f122590
   - enabled: 1
-    path: Assets/Scenes/TestCementry.unity
+    path: Assets/Scenes/Cementry.unity
     guid: 0dc4a24f03082a54a81c1c3797543c6f
   - enabled: 1
     path: Assets/Scenes/TestHotel.unity
