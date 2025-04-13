@@ -462,17 +462,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108a54255b85f754eae49f5ab8f1bdaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &320494083 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1180326655507156127, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
-  m_PrefabInstance: {fileID: 320494080}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a75c11aa5f6584d9d7db904f7220b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +819,10 @@ PrefabInstance:
       value: Bottle1Black
       objectReference: {fileID: 0}
     - target: {fileID: 8064225420267390045, guid: 9f947354cb3c55b448c14205a5bce8d5, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 587e27b044c05ec448cb602db468e661, type: 2}
+    - target: {fileID: 8064225420267390045, guid: 9f947354cb3c55b448c14205a5bce8d5, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 685983901}
@@ -1063,6 +1056,10 @@ PrefabInstance:
       value: Binoculars
       objectReference: {fileID: 0}
     - target: {fileID: 7678259572412773943, guid: 94b1837c63ef1144a8cf1aaf1a83a762, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 749dffcea23c3754398e4e66a049acc9, type: 2}
+    - target: {fileID: 7678259572412773943, guid: 94b1837c63ef1144a8cf1aaf1a83a762, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 897113490}
@@ -1119,6 +1116,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1615776976332460646, guid: 877741e844e9d1940ad0de23a12fb58b, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 6dff0a6838a3c4f47a980dbac4bd35ce, type: 2}
     - target: {fileID: -1615776976332460646, guid: 877741e844e9d1940ad0de23a12fb58b, type: 3}
       propertyPath: _outline
       value: 
@@ -1276,7 +1277,7 @@ PrefabInstance:
     - target: {fileID: 1901237913667213500, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 320494083}
+      objectReference: {fileID: 0}
     - target: {fileID: 2474071426771129767, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.1932979
@@ -1345,6 +1346,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 204849490238369676, guid: 5b69c86bb22069a4880630f4f4012bfe, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 6cd14a1008931f841aa1bc6a4b42ed8e, type: 2}
     - target: {fileID: 204849490238369676, guid: 5b69c86bb22069a4880630f4f4012bfe, type: 3}
       propertyPath: _outline
       value: 
@@ -1451,6 +1456,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7642472314159704539, guid: dfc9477c48899394eb37141012b4e49f, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: b954145e317194b49aad9b227c9569ab, type: 2}
     - target: {fileID: -7642472314159704539, guid: dfc9477c48899394eb37141012b4e49f, type: 3}
       propertyPath: _outline
       value: 
@@ -1572,7 +1581,7 @@ PrefabInstance:
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 320494083}
+      objectReference: {fileID: 0}
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _dialogWindow
       value: 
