@@ -4528,6 +4528,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 981026397096155690, guid: 60aa43e4fd9a93946880d579e5fab6c7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4216615927321296152, guid: 60aa43e4fd9a93946880d579e5fab6c7, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -4603,7 +4607,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 626651692}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -7434,6 +7438,10 @@ PrefabInstance:
       propertyPath: _outline
       value: 
       objectReference: {fileID: 996581876}
+    - target: {fileID: 1863923748644233640, guid: bb764eec31ba66d48b07cc6a2a123cc4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4125324735200718899, guid: bb764eec31ba66d48b07cc6a2a123cc4, type: 3}
       propertyPath: m_Name
       value: Note
@@ -7505,7 +7513,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 996581875}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -12249,6 +12257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: drugs
       objectReference: {fileID: 0}
+    - target: {fileID: 3607822261526303877, guid: f3af9595bf73e7349aecb8ac0a313c7b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3793366670750549215, guid: f3af9595bf73e7349aecb8ac0a313c7b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -12320,7 +12332,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1594041149}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594041150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -15064,6 +15076,10 @@ PrefabInstance:
       propertyPath: _outline
       value: 
       objectReference: {fileID: 2035176952}
+    - target: {fileID: 5285858187207334532, guid: 99e21fc8c45c0384e8707c716e2e3f95, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8603496704505662260, guid: 99e21fc8c45c0384e8707c716e2e3f95, type: 3}
       propertyPath: m_Name
       value: Shovel
@@ -15143,7 +15159,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2035176950}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035176951}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
