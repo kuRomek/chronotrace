@@ -22,6 +22,7 @@ namespace Misc
         private void OnValidate()
         {
             _scenesList = new List<string>(_scenes);
+            SceneNumber = 0;
         }
 
         public void RemoveScene(string scene)
