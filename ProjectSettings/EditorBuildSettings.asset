@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/HotelRoom.unity
     guid: b87ab293d97cf054cb5f93bb2b9cb23b
   - enabled: 1
-    path: Assets/Scenes/TestLab.unity
+    path: Assets/Scenes/Lab.unity
     guid: 65c53f6ebf3bc874f81c7cddb731d6fc
   - enabled: 1
     path: Assets/Scenes/Railway.unity
