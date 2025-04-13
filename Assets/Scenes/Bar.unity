@@ -268,6 +268,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5401702678139892922, guid: bb764eec31ba66d48b07cc6a2a123cc4, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 4d806d291b0455c44bc733ea3e84c477, type: 2}
+    - target: {fileID: -5401702678139892922, guid: bb764eec31ba66d48b07cc6a2a123cc4, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 1008288766}
@@ -1371,7 +1375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 638710911}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 14ea46de4d88a1849a84ccfdd0353cd8, type: 2}
 --- !u!1001 &704042226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2783,7 +2787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1051645881}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 0a9748a9fcb717445a774392f85d0a7e, type: 2}
 --- !u!114 &1051645881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3775,6 +3779,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5807053065237472114, guid: cb61139ba1c7acc43a84287bd344ed54, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dfe13fba6927254eafc4da87d8d06b4, type: 2}
     - target: {fileID: 5807053065237472114, guid: cb61139ba1c7acc43a84287bd344ed54, type: 3}
       propertyPath: _outline
       value: 
@@ -4799,6 +4807,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6839748829139123600, guid: 15f5d0d79fcd60046bddaac443d55404, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 987b81706312a6841a34000a16cea071, type: 2}
     - target: {fileID: -6839748829139123600, guid: 15f5d0d79fcd60046bddaac443d55404, type: 3}
       propertyPath: _outline
       value: 
