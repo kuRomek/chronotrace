@@ -1,7 +1,7 @@
 using Dialogs;
 using UnityEngine;
 
-namespace Interactable
+namespace InteractableObjects
 {
     public class Interactable : MonoBehaviour, IInteractable
     {
