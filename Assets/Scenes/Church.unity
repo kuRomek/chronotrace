@@ -2538,7 +2538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 936663403}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 7fb3ba8872484594fa79282696cdded9, type: 2}
 --- !u!65 &936663405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3577,6 +3577,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2736180429411377706, guid: e91bc588d3aafac4ca8829a600c2b63f, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f6c3da03bcba1d4eab452f6a5b32e2b, type: 2}
     - target: {fileID: -2736180429411377706, guid: e91bc588d3aafac4ca8829a600c2b63f, type: 3}
       propertyPath: _outline
       value: 
@@ -5091,7 +5095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1636831485}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: cef0d4d3a221b414f931af38bb2c113d, type: 2}
 --- !u!114 &1636831485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5406,6 +5410,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8989500126827314362, guid: 5be12b0dc54de814f85490da556a2c03, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 49655b563cf4f05469166a2abfefaf1b, type: 2}
     - target: {fileID: 8989500126827314362, guid: 5be12b0dc54de814f85490da556a2c03, type: 3}
       propertyPath: _outline
       value: 
