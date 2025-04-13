@@ -444,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 1901237913667213500, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 1849968674}
+      objectReference: {fileID: 0}
     - target: {fileID: 2474071426771129767, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -636,7 +636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 384214948}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 96be2d3f7dc744845aa749259927ceb9, type: 2}
 --- !u!114 &384214948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 384478133}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 96be2d3f7dc744845aa749259927ceb9, type: 2}
 --- !u!114 &384478133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 503909967}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 9347f06c9d1796d4c9c3b7a01946127f, type: 2}
 --- !u!65 &503909969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1843,7 +1843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 977748605}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 25dae62c260bffd42958e801ab76720e, type: 2}
 --- !u!65 &977748607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2098,7 +2098,7 @@ PrefabInstance:
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 1849968674}
+      objectReference: {fileID: 0}
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _dialogWindow
       value: 
@@ -2555,7 +2555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1491417405}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 9347f06c9d1796d4c9c3b7a01946127f, type: 2}
 --- !u!65 &1491417407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2688,7 +2688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1615070693}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 50ab62130b14a5644a590f7f31a2e8c4, type: 2}
 --- !u!114 &1615070693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2851,7 +2851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1690987297}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 96be2d3f7dc744845aa749259927ceb9, type: 2}
 --- !u!114 &1690987297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3004,7 +3004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1787386260}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 50ab62130b14a5644a590f7f31a2e8c4, type: 2}
 --- !u!65 &1787386262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3143,17 +3143,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 108a54255b85f754eae49f5ab8f1bdaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1849968674 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1180326655507156127, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
-  m_PrefabInstance: {fileID: 1849968671}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a75c11aa5f6584d9d7db904f7220b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2004918224
