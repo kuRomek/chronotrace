@@ -11,18 +11,13 @@ namespace Misc
         [Scene, SerializeField] private string[] _scenes;
         [Scene, SerializeField] private string _finalScene;
         [Scene, SerializeField] private string _firstScene;
+        [SerializeField] private int _maxSceneNumber = 4;
 
         public int SceneNumber { get; private set; } = 0;
         public string FinalScene => _finalScene;
         private List<string> _scenesList;
 
         public IReadOnlyList<string> ScenesList => _scenesList;
-
-        private void Awake()
-        {
-            if (SceneManager.GetActiveScene().name == _firstScene)
-                SceneNumber = 0;
-        }
 
         private void OnValidate()
         {
@@ -32,7 +27,16 @@ namespace Misc
         public void RemoveScene(string scene)
         {
             _scenesList.Remove(scene);
-            SceneNumber++;
+
+            IncrementSceneNumber();
+        }
+
+        public void IncrementSceneNumber(string _ = null)
+        {
+            SceneNumber = (SceneNumber + 1) % _maxSceneNumber;
+
+            if (SceneNumber == 0)
+                _scenesList = new List<string>(_scenes);
         }
     }
 }
