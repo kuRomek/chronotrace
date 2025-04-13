@@ -12,6 +12,7 @@ namespace Dialogs
         [SerializeField] private Dialog _followingDialogOnNo;
         [SerializeField] private bool _isTriggeringSceneLoading;
         [SerializeField] private bool _invokesQuestion;
+        [SerializeField] private bool _invokesMurderesSelection;
 
         public string Title => _title;
         public IReadOnlyList<string> Lines => _lines;
@@ -19,5 +20,6 @@ namespace Dialogs
         public Dialog FollowingDialogOnNo => _followingDialogOnNo;
         public bool IsTriggeringSceneLoading => _isTriggeringSceneLoading;
         public bool InvokesQuestion => _invokesQuestion;
+        public bool InvokesMurderesSelection => _invokesMurderesSelection;
     }
 }

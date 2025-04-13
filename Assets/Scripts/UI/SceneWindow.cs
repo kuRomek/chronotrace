@@ -20,6 +20,15 @@ namespace UI
                 _sceneButtons[i].SceneSelected += _scenes.RemoveScene;
                 scenes.RemoveAt(randomIndex);
             }
+
+            if (_scenes.SceneNumber == 3)
+            {
+                foreach (var sceneButton in _sceneButtons)
+                    sceneButton.gameObject.SetActive(false);
+
+                _sceneButtons[0].gameObject.SetActive(true);
+                _sceneButtons[0].Init(_scenes.FinalScene);
+            }
         }
     }
 }

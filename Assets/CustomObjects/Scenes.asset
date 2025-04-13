@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Scenes
   m_EditorClassIdentifier: 
   _scenes:
-  - Test
   - TestCementry
   - TestHotel
   - TestLab
   - Railway
-  - TestRoom
+  - Railway
+  _finalScene: Room

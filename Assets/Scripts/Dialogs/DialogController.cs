@@ -1,4 +1,5 @@
 using PlayerControl;
+using System;
 using UI;
 using UnityEngine;
 
@@ -9,7 +10,8 @@ namespace Dialogs
         [SerializeField] private Player _player;
         [SerializeField] private DialogWindow _dialogWindow;
         [SerializeField] private SceneWindow _sceneWindow;
-        [SerializeField] private AskingWindow _askingWindow;
+        [SerializeField] private TwoAnswersWindow _askingWindow;
+        [SerializeField] private MurdererSelectingWindow _murdererSelectingWindow;
 
         private Dialog _currentDialog = null;
 
@@ -42,6 +44,9 @@ namespace Dialogs
         {
             if (_currentDialog.IsTriggeringSceneLoading)
                 _sceneWindow.Open();
+
+            if (_currentDialog.InvokesMurderesSelection)
+                _murdererSelectingWindow.Open();
 
             if (_currentDialog.FollowingDialogOnYes == null && _currentDialog.FollowingDialogOnNo == null)
             {

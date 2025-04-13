@@ -8,7 +8,10 @@ namespace Misc
     public class Scenes : ScriptableObject
     {
         [Scene, SerializeField] private string[] _scenes;
+        [Scene, SerializeField] private string _finalScene;
 
+        public int SceneNumber { get; private set; } = 0;
+        public string FinalScene => _finalScene;
         private List<string> _scenesList;
 
         public IReadOnlyList<string> ScenesList => _scenesList;
@@ -21,6 +24,7 @@ namespace Misc
         public void RemoveScene(string scene)
         {
             _scenesList.Remove(scene);
+            SceneNumber++;
         }
     }
 }
