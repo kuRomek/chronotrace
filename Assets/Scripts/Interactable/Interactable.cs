@@ -8,9 +8,12 @@ namespace InteractableObjects
         [SerializeField] private Outline _outline;
         [SerializeField] private Dialog _dialog;
 
+        private int _width = 5;
+
         private void Awake()
         {
             _outline.OutlineColor = Color.blue;
+            _outline.OutlineWidth = _width;
         }
 
         public Dialog Interact()

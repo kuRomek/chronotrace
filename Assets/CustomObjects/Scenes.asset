@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Scenes
   m_EditorClassIdentifier: 
   _scenes:
-  - Cementry
   - HotelRoom
   - Lab
   - Railway
@@ -25,5 +24,7 @@ MonoBehaviour:
   - Sewers
   - Theater
   - Bar
+  - Cemetery
   _finalScene: RoomFinal
   _firstScene: Room
+  _maxSceneNumber: 4
