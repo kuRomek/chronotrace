@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 679018345}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 37b5815e283e6b94e85a3651d1ec50cd, type: 2}
 --- !u!114 &679018345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 1190196161}
-  _dialog: {fileID: 0}
+  _dialog: {fileID: 11400000, guid: 922fd82de006695429c0f7040893372a, type: 2}
 --- !u!114 &1190196161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2737,6 +2737,10 @@ PrefabInstance:
       value: Board
       objectReference: {fileID: 0}
     - target: {fileID: 6807343967888207055, guid: c158c5979c89af44d8ab0763de2183cf, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 15c7a1f938fadf7479be91ff87070d0b, type: 2}
+    - target: {fileID: 6807343967888207055, guid: c158c5979c89af44d8ab0763de2183cf, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 868165926}
@@ -3007,6 +3011,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1968322608}
     m_Modifications:
+    - target: {fileID: -1354940327970259522, guid: 93e5f7f3c9023ec439156fb4f7c6fab6, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 2470295f605eb26459b3a8a648734974, type: 2}
     - target: {fileID: -1354940327970259522, guid: 93e5f7f3c9023ec439156fb4f7c6fab6, type: 3}
       propertyPath: _outline
       value: 

@@ -15712,6 +15712,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1521261571952094880, guid: c97ac802ceef787418758ecdd2025eef, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: df9a0342d2b05de4080ee450c76d9c6a, type: 2}
+    - target: {fileID: 1521261571952094880, guid: c97ac802ceef787418758ecdd2025eef, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 2077217544}

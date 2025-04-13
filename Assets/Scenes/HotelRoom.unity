@@ -2065,6 +2065,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 832359522}
     m_Modifications:
     - target: {fileID: -6816331797516118147, guid: bcfd79dc02c9a2641a31adc3d16c798d, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 6798f99f75d3e0c49ae436771e8a35ed, type: 2}
+    - target: {fileID: -6816331797516118147, guid: bcfd79dc02c9a2641a31adc3d16c798d, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 868748781}
@@ -3097,6 +3101,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 832359522}
     m_Modifications:
     - target: {fileID: -2736180429411377706, guid: e91bc588d3aafac4ca8829a600c2b63f, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e8485628f2ed244689be3d928ffa3b6, type: 2}
+    - target: {fileID: -2736180429411377706, guid: e91bc588d3aafac4ca8829a600c2b63f, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 1282273116}
@@ -3730,6 +3738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottle1Black
       objectReference: {fileID: 0}
+    - target: {fileID: 8064225420267390045, guid: 9f947354cb3c55b448c14205a5bce8d5, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: efd49b9b7c2fea84988ffc4e02deffc2, type: 2}
     - target: {fileID: 8064225420267390045, guid: 9f947354cb3c55b448c14205a5bce8d5, type: 3}
       propertyPath: _outline
       value: 
@@ -4816,6 +4828,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6100664532170476520, guid: ef14afde82b86344e9575603d07384e8, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 68e7a8a5c8fe631409f01e61ec5f3be8, type: 2}
+    - target: {fileID: 6100664532170476520, guid: ef14afde82b86344e9575603d07384e8, type: 3}
       propertyPath: _outline
       value: 
       objectReference: {fileID: 1846174496}
@@ -5365,6 +5381,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 832359522}
     m_Modifications:
+    - target: {fileID: -2247542205563470925, guid: 8e6e87f2849652b47975ff8bb37b6497, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 976be878633dc724696585fa3f645bfe, type: 2}
     - target: {fileID: -2247542205563470925, guid: 8e6e87f2849652b47975ff8bb37b6497, type: 3}
       propertyPath: _outline
       value: 
