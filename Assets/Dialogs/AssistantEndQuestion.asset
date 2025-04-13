@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _title: "\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442"
   _lines:
-  - "\u041A\u0442\u043E \u0436\u0435 \u0443\u0431\u0438\u0446\u0430?"
+  - "\u041A\u0442\u043E \u0436\u0435 \u0443\u0431\u0438\u0439\u0446\u0430?"
   _followingDialogOnYes: {fileID: 0}
   _followingDialogOnNo: {fileID: 0}
   _isTriggeringSceneLoading: 0
