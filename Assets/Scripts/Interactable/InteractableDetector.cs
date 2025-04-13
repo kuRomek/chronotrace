@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Interactable
+namespace InteractableObjects
 {
     public class InteractableDetector : MonoBehaviour
     {

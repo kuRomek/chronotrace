@@ -1,6 +1,6 @@
 using Dialogs;
 
-namespace Interactable
+namespace InteractableObjects
 {
     public interface IInteractable
     {

@@ -1,6 +1,6 @@
 using Dialogs;
 using Input;
-using Interactable;
+using InteractableObjects;
 using System;
 using UnityEngine;
 
@@ -13,6 +13,8 @@ namespace PlayerControl
         [SerializeField] private Movement _movement;
 
         public event Action<Dialog> Interacting;
+
+        public Movement Movement => _movement;
 
         private void OnEnable()
         {
