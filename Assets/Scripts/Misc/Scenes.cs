@@ -19,7 +19,7 @@ namespace Misc
 
         public IReadOnlyList<string> ScenesList => _scenesList;
 
-        private void OnValidate()
+        private void Awake()
         {
             _scenesList = new List<string>(_scenes);
             SceneNumber = 0;
