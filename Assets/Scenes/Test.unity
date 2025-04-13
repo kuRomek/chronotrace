@@ -5837,6 +5837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assistant
       objectReference: {fileID: 0}
+    - target: {fileID: 5477035615203827029, guid: d75e96375fb39f74f923eb1e61113517, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 1df0ea85b6fc55541b4a85c3e77d8eea, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
