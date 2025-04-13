@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Fruits
   productName: Chronotrace
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -569,6 +569,8 @@ PlayerSettings:
   m_BuildTargetDefaultTextureCompressionFormat:
   - m_BuildTarget: Android
     m_Format: 3
+  - m_BuildTarget: WebGL
+    m_Format: 3
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -806,7 +808,7 @@ PlayerSettings:
   spritePackerPolicy: 
   webGLMemorySize: 16
   webGLExceptionSupport: 1
-  webGLNameFilesAsHashes: 0
+  webGLNameFilesAsHashes: 1
   webGLShowDiagnostics: 0
   webGLDataCaching: 1
   webGLDebugSymbols: 0
@@ -815,7 +817,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 0
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -860,7 +862,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Chronotrace
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -868,7 +870,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Chronotrace
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Chronotrace
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
