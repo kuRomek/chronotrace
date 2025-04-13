@@ -21,6 +21,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Railway.unity
     guid: 8951ca352d5f0e942833c36e70d8feff
   - enabled: 1
-    path: Assets/Scenes/TestRoom.unity
-    guid: 2b01f1623371c8648a549854fa47d223
+    path: Assets/Scenes/Church.unity
+    guid: f0f27953690036e4ab10fc5cefe94b14
+  - enabled: 1
+    path: Assets/Scenes/Gallery.unity
+    guid: 651f3da7504225d4fb58a75892d51fc5
+  - enabled: 1
+    path: Assets/Scenes/Greenhouse.unity
+    guid: 4c9cbcaf0e9e5eb4e8308bd2320c5248
+  - enabled: 1
+    path: Assets/Scenes/Library.unity
+    guid: fffc368ce7c545240a157d1fa3ce0e97
+  - enabled: 1
+    path: Assets/Scenes/Museum.unity
+    guid: aa387ba1829eb1b4cac33f647a0ca8d5
+  - enabled: 1
+    path: Assets/Scenes/Sewers.unity
+    guid: d5ef07428d2f1d543be17d4cee545283
+  - enabled: 1
+    path: Assets/Scenes/Theater.unity
+    guid: 827808a7e26ad1744a82c8ffe2ba06dd
+  - enabled: 1
+    path: Assets/Scenes/Bar.unity
+    guid: 0ada487c8c5995441ba2cbc60e394146
+  - enabled: 1
+    path: Assets/Scenes/RoomFinal.unity
+    guid: fab39a966b97bf44ea8fa6f1916df651
   m_configObjects: {}
