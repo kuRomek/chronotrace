@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6866543f6b29de74c93135c0ed85ac69, type: 3}
   m_Name: Tips
   m_EditorClassIdentifier: 
-  _title: 
-  _lines: []
+  _title: "\u0411\u0430\u043D\u043A\u0430 \u0434\u043B\u044F \u0447\u0430\u0435\u0432\u044B\u0445"
+  _lines:
+  - "\u0414\u043E\u0432\u043E\u043B\u044C\u043D\u043E \u0432\u043D\u0443\u0448\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F
+    \u0441\u0443\u043C\u043C\u0430"
   _followingDialogOnYes: {fileID: 0}
   _followingDialogOnNo: {fileID: 0}
   _isTriggeringSceneLoading: 0
   _invokesQuestion: 0
+  _invokesMurderesSelection: 0
