@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: Scenes
   m_EditorClassIdentifier: 
   _scenes:
-  - TestCementry
-  - TestHotel
-  - TestLab
+  - Cementry
+  - HotelRoom
+  - Lab
   - Railway
-  - Railway
-  _finalScene: Room
+  - Church
+  - Gallery
+  - Greenhouse
+  - Library
+  - Museum
+  - Sewers
+  - Theater
+  - Bar
+  _finalScene: RoomFinal
+  _firstScene: Room

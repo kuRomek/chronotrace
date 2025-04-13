@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _outline: {fileID: 3903865201689508175}
-  _dialog: {fileID: 11400000, guid: e7b5a1c17c9aff349b1cf1164b25b778, type: 2}
+  _dialog: {fileID: 11400000, guid: 1df0ea85b6fc55541b4a85c3e77d8eea, type: 2}
 --- !u!1001 &4941639805606020482
 PrefabInstance:
   m_ObjectHideFlags: 0
