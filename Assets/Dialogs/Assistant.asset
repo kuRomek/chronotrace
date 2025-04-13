@@ -15,7 +15,7 @@ MonoBehaviour:
   _title: "\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043D\u0442"
   _lines:
   - "\u0412\u044B \u043D\u0430\u0448\u043B\u0438 \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C?"
-  _followingDialogOnYes: {fileID: 11400000, guid: 014806ed772cacb41899e99844b69ec4, type: 2}
-  _followingDialogOnNo: {fileID: 11400000, guid: 36d3c71a0e9f6c243b79647d57dc0ec1, type: 2}
+  _followingDialogOnYes: {fileID: 11400000, guid: 938b46f64c49c6a4b8e2946f6128c660, type: 2}
+  _followingDialogOnNo: {fileID: 11400000, guid: 102d482834e133142ad9045598ed2ed5, type: 2}
   _isTriggeringSceneLoading: 0
   _invokesQuestion: 1
