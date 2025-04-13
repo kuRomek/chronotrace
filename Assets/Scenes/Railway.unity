@@ -399,17 +399,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
---- !u!114 &232910354 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1180326655507156127, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
-  m_PrefabInstance: {fileID: 232910353}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a75c11aa5f6584d9d7db904f7220b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &232910355 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1072912406894379275, guid: 45a5d382fc8152b489ba5e4dc2118d55, type: 3}
@@ -455,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 232910354}
+      objectReference: {fileID: 0}
     - target: {fileID: 1150862203158837044, guid: 312f48631d07e5e40bf26fef3aea7265, type: 3}
       propertyPath: _dialogWindow
       value: 
@@ -1279,7 +1268,7 @@ PrefabInstance:
     - target: {fileID: -3328803431568212139, guid: 43b5cb1dc13741c4e8eea651562780a2, type: 3}
       propertyPath: _dialog
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 310f8b3395f326c4eb3b6939fabe902e, type: 2}
     - target: {fileID: -3328803431568212139, guid: 43b5cb1dc13741c4e8eea651562780a2, type: 3}
       propertyPath: _outline
       value: 
@@ -1415,6 +1404,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1507473639}
     m_Modifications:
+    - target: {fileID: -5704768651796302371, guid: aaf0c38f4104377479ef2ebed46f291a, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 761b101c561842c4d9a014cf5ac5781c, type: 2}
     - target: {fileID: -5704768651796302371, guid: aaf0c38f4104377479ef2ebed46f291a, type: 3}
       propertyPath: _outline
       value: 
@@ -1660,7 +1653,7 @@ PrefabInstance:
     - target: {fileID: 1901237913667213500, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: _askingWindow
       value: 
-      objectReference: {fileID: 232910354}
+      objectReference: {fileID: 0}
     - target: {fileID: 2474071426771129767, guid: c93e2df84bdf82d459d8df5008838f0d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.79
@@ -1770,6 +1763,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1507473639}
     m_Modifications:
+    - target: {fileID: -2247542205563470925, guid: 8e6e87f2849652b47975ff8bb37b6497, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 7a467cc694f16604da19ca07ca58f752, type: 2}
     - target: {fileID: -2247542205563470925, guid: 8e6e87f2849652b47975ff8bb37b6497, type: 3}
       propertyPath: _outline
       value: 
@@ -2010,6 +2007,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8047811489442761916, guid: 60aa43e4fd9a93946880d579e5fab6c7, type: 3}
+      propertyPath: _dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: da8da33c4d47c154a9d17e90b5f07250, type: 2}
     - target: {fileID: 8047811489442761916, guid: 60aa43e4fd9a93946880d579e5fab6c7, type: 3}
       propertyPath: _outline
       value: 
